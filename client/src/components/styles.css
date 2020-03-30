@@ -1,0 +1,8 @@
+.container_form{
+  display: flex;
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  align-items: center
+}

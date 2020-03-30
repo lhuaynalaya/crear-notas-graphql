@@ -1,0 +1,19 @@
+type Note {
+  title: String!
+  description: String
+}
+
+input NoteInput {
+  title: String!
+  description: String
+}
+
+type Query {
+  getNotes: [Note]!
+}
+
+type Mutation {
+  addNote(
+    input: NoteInput
+  ):Note!
+}
